@@ -1,0 +1,150 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.header-top-area a, .header-top-area {
+    color: #fff;
+    font-size: 13px;
+}
+.mainmenu {
+    padding-right: 20px;
+}
+.menu-search-bar {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -20px;
+}
+.menu-search-bar::after {
+    right: 12px;
+    top: 13%;
+}
+.mainmenu li a {
+    padding: 30px 16px;
+}
+
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.mainmenu li a {
+    padding: 30px 16px;
+}
+
+.header-top-area, .text-right{
+    
+    text-align: center;
+}
+.single-slide-item h2{
+	font-size: 40px;
+}
+
+.logo {
+    padding: 20px 0px;
+    text-align: center;
+    padding-bottom: 0;
+    margin: 0;
+}
+.mainmenu li a {
+    padding: 20px 16px;
+}
+.mainmenu ul li:hover ul {
+    opacity: 1;
+    z-index: 9;
+    top: 68px;
+}
+
+
+}
+
+
+/*Small devices (Tablet, landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+
+
+.header-top-area {
+    background-color: #222;
+    font-size: 11px;
+    padding: 10px 0;
+}
+
+.header-top-area, .text-right{
+    
+    text-align: center;
+}
+
+
+.mainmenu li a {
+    padding: 30px 16px;
+}
+
+
+/*==========================
+Mobile Menu Slick Nav CSS
+===========================*/
+
+
+.mainmenu, .menu-search-bar{
+	display: none;
+}
+
+.responsive-menu-wrap{
+	display: block;
+}
+
+
+.logo {
+    text-align:  left;
+}
+
+
+.responsive-menu-wrap {
+    position:  absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -16px;
+        width: 200px;
+}
+
+.mainmenu-area {
+    position:  relative;
+    z-index: 9;
+}
+
+.responsive-menu-wrap .slicknav_menu {
+    padding:  0;
+    margin:  0;
+    background:  none;
+}
+
+.responsive-menu-wrap .slicknav_btn {
+    margin: 0;
+}
+
+.slicknav_btn {
+	margin:0;
+}
+
+.slicknav_nav {
+    background: #333;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.current_page_item > a {
+    background-color: #f6bd49;
+    text-decoration: none;
+}
+.current_page_item:hover > a {
+    background-color: #f6bd49;
+    
+}
+
+
+
+}
+
